@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Mishari Al-Buhairi</title>
+    <link rel="icon" href="assets/images/cv.png" type="image/png">
+    <link rel="stylesheet" href="assets/styles.css">
+    <script defer src="assets/script.js"></script> <!-- JavaScript for mobile menu -->
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <div class="nav-container">
+            <a href="index.html" class="brand-name">Mishari Al-Buhairi</a>
+            <div class="menu-toggle" id="mobile-menu">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="cv.html">CV</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Header Section -->
+    <header class="hero">
+        <h6>Contact</h6>
+        <h2>Get in Touch</h2>
+        <p>Feel free to reach out for collaborations, job opportunities, or just to say hello!</p>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <section class="contact-container">
+
+            <!-- Profile & Contact Info -->
+            <div class="card profile-card">
+                <img src="assets/images/profile_pic_mini.jpg" alt="Mishari Al-Buhairi" class="profile-img">
+                <h3>Mishari Al-Buhairi</h3>
+                <div class="contact-info">
+                    <p><strong>Date of Birth:</strong> 2003/09/04</p>
+                    <p><strong>Phone:</strong> <a href="tel:+966500585061">+966 500585061</a></p>
+                    <p><strong>Email:</strong> <a href="mailto:mishari@albuhairi.me">mishari@albuhairi.me</a></p>
+                    <p><strong>Location:</strong> Riyadh, Saudi Arabia</p>
+                </div>
+
+                <!-- Download CV Button -->
+                <a href="assets/resume/Mishari-resume.pdf" download="Mishari-resume.pdf" class="btn">
+                    <img src="assets/images/download.svg" alt="Download"> DOWNLOAD CV
+                </a>
+            </div>
+
+            <!-- Contact Form -->
+            <div class="card contact-form-card">
+                <h2>Send a Message</h2>
+                <form action="mailto:mishari@albuhairi.me" method="POST" enctype="text/plain">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+
+        </section>
+
+        <!-- Back to Top -->
+        <div class="back-to-top">
+            <a href="#">Back to Top ↑</a>
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <span>© 2025 <a href="#">Mishari Al-Buhairi</a></span>
+            <ul class="footer-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cv.html">CV</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+</html>
